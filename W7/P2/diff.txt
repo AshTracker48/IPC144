@@ -1,0 +1,14 @@
+In line number 3 of your output:
+The output should be:
+         Treasure Hunt!
+                       ^
+But your output is: 
+         Treasure Hunt!         
+                       ^
+
+Unmatched character details:
+The character in column 24 is supposed to be:
+  [Empty Line] ASCII code(0)
+but you printed
+  [Space] ASCII code(32)
+

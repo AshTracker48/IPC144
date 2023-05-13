@@ -1,0 +1,31 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : AYUSHKUMAR VIPULBHAI PATEL
+Student ID#: 114473226
+Email      : apatel574@myseneca.ca
+Section    : G
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1.	The price1 and the corresponding converted cent value do not properly represent the intended value because the precision of the float values is up to 7 decimal places. 17.96 is stored as 17.9599990 in the CPU’s memory. After multiplying the value with 100 it becomes 1795.99990 and rounding off that value is 17.95. So, the final value of the price1 becomes 1795 after integer to float conversion. While on the other hand, 17.98 is stored as 17.9799995 and after multiplying with 100, it becomes 1797.99995 which after rounding off gives us the value 17.98. Hence, the intended value.
+
+2.	Line -1 printf: Firstly, the int money is promoted into the data type double and then is divided by the value 100.0 which is also a double value, so that the output could be of double data type. It is possible due to argument coercion feature of the printf function.
+
+Line -2 printf: Here, the int money is divided by another int 100 but after promoting it into double data type i.e., it produces the same case as Line -1 printf and hence, the same output.
+
+Line -3 printf: Here, the int money will be first casted implicitly into double data type and then divided by int 100 i.e., the int 100 will be automatically promoted to the double data type and the operation will proceed giving the same output.
+
+3.	A) The value of the variable result is 72. It is because the variable result was previously stored in the int data type so the output of money / 100 which is a double value will be truncated into the int data type presenting with the integer value.
+
+B) Sample 1 = $0.00
+     Sample 2 = $72
+     Sample 3 = $0.00
+     Sample 4 = $72
+
+C) In the samples 1 and 3, the output of the expression [money / 100] and [result] is in int data type  and neither of the values are instructed to be casted implicitly to double data type i.e., for this samples to work properly, it should be done explicitly either by doing [(double)money /100] or [money / (double)100].

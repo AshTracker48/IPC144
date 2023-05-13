@@ -1,0 +1,68 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : AYUSHKUMAR VIPULBHAI PATEL
+Student ID#: 114473226
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1. The benefit of getting return values of functions in two different ways
+   (via an argument and/or by return) is that it allows user to select the type
+   of output they want from the function and they can change the type of output
+   everytime they call that particular function. 
+
+   For example, in workshop 8, the user may prefer to get the output of the 
+   function in the form of a number if, the user wants to assign that value 
+   directly to the variable in the start function but if, the user prefers to 
+   share the pointer address into the function, then the output will be directly 
+   stored at the pointer's address.
+
+   The drawback for designing our function like this is that:
+   (i) The user must have understood, how this function works before actually passing
+       any variable or address.
+   (ii)The code may become difficult for readers to understand if the same pattern is 
+       not used in other functions.
+
+
+
+2. The function that has less than perfect cohesion is "getCatFoodInfo". This function
+   has four different tasks to complete such as getting inputs for SKU number, product 
+   price, weight of the product and number of calories per serving. Thus, the cohesion 
+   of this function can be improved by dividing the function into four distinct parts 
+   as may be "getSKU_number", "getProduct_Price", "getWeight_of_Product", 
+   "getCalories_per_serving". In this way, each funtion will focus on their respective
+   task and the cohesion can be improved.
+
+   The function that has coupling that can be improved is "convertLbs". It is because 
+   this function has two outputs: "Result_in_Kgs" and "Result_in_Gs", and they are also 
+   not related to each other. Hence, it becomes less usable because it is not necessary 
+   that we would need both the outputs at the same time. Therefore, the functions 
+   "convertLbsKg" and "convertLbsG" are created and are also used at different places 
+   in the program. This improves the code maintenance.
+
+
+3. There are multiple benefits of passing structures into functions:
+   a) It simplifies code by not requiring multiple arguments to be passed. Instead,
+      one can make a structure of all the related data and simplify functions.
+   b) When one passes the structure by reference in the function(i.e. using the pointer
+      of the function), one can avoid copying the entire structure, which can be important
+      for large programs.
+
+   There are two types of arguments that can be passed through a function:
+   a) Pass by value
+   b) Pass by reference/address
+
+   The "Pass by value" argument is the one that does not change the original value of the 
+   variable but creates a copy of it to perform the functions' tasks.
+   However, "Pass by reference" argument removes the original value if there's any in the 
+   variable and replaces it with the new value that is returned by the function.
+  
+   In the function "displayCatFoodInfo", I have passed individual arguments to be displayed.
+   Instead, I can just pass the CatFooddInfo [name] structure through it, so that others can easily 
+   understand what is being entered into the function i.e, improves code readability and is also
+   helpful for the future perspective.

@@ -1,0 +1,60 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : AYUSHKUMAR VIPULBHAI PATEL
+Student ID#: 114473226
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+
+1. It's true that each iteration construct can achieve the same result, but 
+there are some places in my code where only a particular type of construct 
+can be used.
+
+For example, when creating a loop for displaying the output of how the user
+ wants to forecast their wish list, I have used a 'do-while' loop as my 
+purpose was that the loop must run atleast once. So, it was the only 
+construct that matched my requirements.
+
+Also, when I had to check in the priority and finance arrays whether I have
+ other items with the same priority (if so then sum their costs up in a 
+variable) or if there's any finance option available for the priority items,
+ I used 'for' loops to ensure that the loop iterates only a fixed number of 
+times i.e., for the total number of items. Thus, 'for' construct comes out 
+to be the most favoured construct when dealing with arrays.
+
+
+
+2. For testing my program, I regularly tested my program for the expected 
+output after completing each stage of my program which helped me identify 
+immediately in which stage of program, I was having problem. 
+
+To debug the same, I read and develop logic of that stage step-by-step and 
+it feels like I am talking to the computer in C language which has helped 
+me cope up with most of my errors as they are usually silly mistakes. For 
+more complex errors, I further divide the whole logic of that stage into 
+smaller divisions to make it much easier to understand and code.
+
+For syntactic errors, compiler automatically shows a message explaining 
+the error and if I am not able to understand what is it trying to convey, 
+then it also provides us a link of how to solve that error and more details
+about it.
+
+For semantic errors, as explained earlier, I check the logic of the code 
+with the logic that the output demands.
+
+
+
+3. Step -1: Check the files output.txt and w6p2_master_output.txt and match your output
+            with the correct output. 
+   Step -2: Re-run the program in the compiler
+   Step -3: This time when you enter the inputs (in this case: income), 
+            check the values that you enter with the expected input values 
+            given in your output.
+  
+   You will have this issue solved.

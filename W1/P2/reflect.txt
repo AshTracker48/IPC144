@@ -1,0 +1,13 @@
+1. Do you have any previous programming experience? If so, what language(s)? If not, what are your initial
+thoughts about the C language and this course?
+-->Yes, I do have a programming background but not a prominent one. I just did html and css before taking this course and somehow because of that it makes easier for me to learn C language.
+
+2. Describe your understanding of the compiling process of turning a C text file into an executable program.
+-->In simple words, a C text file must be compiled once before executing it in case of any syntax errors.
+
+3. What do you hope to achieve in this course? Describe your goals and expectations.
+-->I hope to learn C programming from this course in such a way that it could be helpful to me in future professions that I would be performing and also to complete a milestone on my way to building the best career for me and I expect the mentor to help me with the same.
+
+Sincerely,
+Ayush Patel
+Student Id# 114473226

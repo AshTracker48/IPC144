@@ -1,0 +1,7 @@
+w3p2.c: In function ‘main’:
+w3p2.c:109:5: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+     scanf(" %d", bagweight);
+     ^
+w3p2.c:143:5: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+     scanf(" %d", bagweight);
+     ^

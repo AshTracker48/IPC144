@@ -1,0 +1,14 @@
+In line number 464 of your output:
+The output should be:
+ERROR: Time must be between 10:00 and 14:00 in 30 minute intervals.
+                                               ^
+But your output is: 
+ERROR: Time must be between 10:00 and 14:00 in  30 minute intervals.
+                                               ^
+
+Unmatched character details:
+The character in column 48 is supposed to be:
+  [3] ASCII code(51)
+but you printed
+  [Space] ASCII code(32)
+

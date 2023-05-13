@@ -1,0 +1,14 @@
+In line number 207 of your output:
+The output should be:
+Number : 9994133132
+      ^
+But your output is: 
+Number: 9994133132
+      ^
+
+Unmatched character details:
+The character in column 7 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [:] ASCII code(58)
+

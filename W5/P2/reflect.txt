@@ -1,0 +1,39 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : AYUSHKUMAR VIPULBHAI PATEL
+Student ID#: 114473226
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1. I think the main reason of using variables and macros is that it gives better understanding to the person who reads the code. It also reduces the chances of errors as the programmer himself/herself can easily remember the variable rather than the awkward value itself which can be very helpful in long programs. 
+
+Here are some examples of how variables and macros proved helpful to me in my workshop:
+a) I was able to compare the input with the upper and lower limit of the required input-range in a meaningful manner.
+   -->if ((year > MAX_YEAR || year < MIN_YEAR) && (month > DEC || month < JAN))....
+   -->while ( (lowestrating <= morningrating) || (highestrating >= morningrating)) {} etc.
+
+b) In the Part-2 portion, it was easier to add the values of morning and evening ratings in a seperate variable with the help of variables as the loop continues.
+   -->if ((eveningrating <= highestrating) && (eveningrating >= lowestrating)) {
+
+                printf("\n");
+
+                eveningtotalrating += eveningrating; etc...
+
+c) Lastly, it was very easy to perform calculations using variables in the end to write summary of the log.
+   -->printf("Overall total rating: %7.3lf\n\n", morningtotalrating + eveningtotalrating);
+   -->avgmorningrating = morningtotalrating / LOG_DAYS; etc...
+
+
+
+
+2. a)The main reason for not adding another logic in the validation to perform summation and average of the user input is that user can enter any value either positive or negative and even some outside of our range due to which we might not get the results as expected. In detail, if user inputs -3 first in our workshop example, then there needs to be an error message dislayed rather than considering that number as an user input and adding it to a seperate variable for summation. In that way, though our calculation is right but the result is incorrect.
+   b)Another reason is that we cannot create a seperate logic which can store all the valid values that the user has entered if you put it outside of the validation code.
+       i.e., if I put (morningtotalrating += morningrating;) outside of the for loop in a seperate logic in the workshop part-2, it won't be able to store all the values that were entered by the user, instead it may only be able to store the last entered value of the user which is an error.
+
+ 

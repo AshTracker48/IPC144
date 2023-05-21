@@ -1,0 +1,20 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Ayushkumar Vipulbhai Patel
+Student ID#: 114473226
+Email      : apatel574@myseneca.ca
+Section    : NGG
+///////////////////////////////////////////////////////////////////////////
+
+1) With the completion of this workshop, you must have begun to appreciate why code formatting is important. Explain how you made your code – especially the iteration and selection logic parts – easy to read and maintain.
+
+Answer: I believe my code is easy to follow and understand. I made it so using meaningful variable names, proper code intendation and adding easy to understand comments. Meaningful variable names helps one easily understand their purpose. Proper indentation and spacing makes it easier to follow the code structure. I made sure the brackets for my loops started in new lines and were properly aligned, everything inside those brackets was spaced with a tab, which made the style clean and easy to follow.
+
+2) Nested logic is an important feature of programming in any language. Identify and briefly discuss the biggest impact on how this workshop could be coded if nesting were not possible.
+
+Answer: Nesting allows for a more efficient and organized code. If nesting was not possible, I would've tried writting the program in a sequential manner, ie. writing the logic for each fruit/vegetable. But, this would cause a lot of duplication (because I'd need to write the same logic for each fruit/vegetable). It would also be difficult to handle errors (ie. error message needs to be repeated for each fruit/vegetable.) It would also make the code harder to read and maintain, as it would be harder to see the structure of the code. 
+
+3) Consider the following scenario: you are programming logic that requires a user to input a value between 1 and 5, and for each value within that range, you had to perform something unique. You would have to apply selection to validate the entered values so you can implement the given logic for a specific entered range value. Explain why is it inefficient to achieve this using a series of “if” optional path constructs instead of the preferred “if/else if…” alternative path logic?
+
+Answer: Using a series of "if" statements to check a range of values is inefficient because each "if" statement would have to be executed one after the other, regardless of whether the previous condition was met. So for each "if" statement, the program would have had to check if the condition is true, even if it already knows that the value is not in the range of 1 to 5. With "if/else if" logic, the program can stop running further conditions as soon as it finds a match, making the logic more efficient by reducing the number of checks required.
